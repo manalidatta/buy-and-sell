@@ -1,0 +1,114 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('src/assets/shop-945414_1280.jpg');
+    background-attachment: fixed;
+    /* background-blend-mode: lighten 50%; */
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(189, 74, 22);
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button:hover{
+    background-color: rgb(190, 97, 54);
+    color: white;
+    font-weight: bold;
+}
+
+input, textarea {
+    border: 2px solid rgb(189, 74, 22);
+    border-radius: 8px;
+    font-size: 16px; 
+    padding: 8px;
+    font-family: 'Ubuntu', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(190, 97, 54);
+    color: white;
+    /* font-weight: bold; */
+}
+
+div {
+    padding: 8px;
+}
+
+/* #page-wrap {
+    background-color: #EEE;
+    background-image: url('src/assets/shop-945414_1280.jpg');
+    min-height: 100vh;
+    padding: 0;
+    width: 100vw;
+} */
+
+#max-width-column {
+    /* background-color: white; */
+    margin: 0 auto;
+    max-width: 700px;
+    min-height: 100vh;
+    padding: 16px;
+    position: relative;
+}
+
+#top-bar {
+    border-bottom: 2px solid rgb(189, 74, 22);
+}
+
+#app-heading {
+    margin-top: 0;
+}
+
+#my-listings-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+#all-listings-button {
+    position: absolute;
+    top: 16px;
+    right: 150px;
+}
+
+#content-wrap {
+    padding: 16px;
+}
+
+.content-box {
+    background-color: rgb(189, 74, 22);
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.buttons-container {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 16px;
+}
+
+.buttons-container > button {
+    margin-left: 8px;
+}
